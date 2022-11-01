@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Raleway&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Raleway&family=Ubuntu:wght@300&family=Volkhov&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Raleway", sans-serif;
+
+  font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
+}
+.navbar {
+  font-weight: 400;
+}
+.responsive_navbar{
+  margin: 0 0 0 30px;
+}
+.responsive_navbar > i{
+     font-size: 30px;
+     cursor: pointer;
+}
+.navbar > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  font-size: 20px;
+}
+.navbar > select {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.select_opt {
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.responsive_header{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 80px 50px 0 50px;
+  max-width: 1160px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 80px 50px 0 50px;
+  max-width: 1160px;
+}
+.sign {
+  border: 1px solid #212832;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px;
+  width: 102px;
+  height: 40px;
+  margin: 0 10px 0 10px;
+  font-weight: 400;
+}
+
+/* Navbar Section Complete */
+
+.header_flex {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  padding: 18px 20px 0 20px;
+}
+.head {
+  margin: 100px 10px 0 10px;
+}
+.head > h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #df6951;
+  text-transform: uppercase;
+}
+.head > h1 {
+  font-weight: 700;
+  font-size: 84px;
+  padding: 24px 0 0 0;
+  color: #181e4b;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Volkhov", serif;
+}
+.head > p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+  padding: 20px 0 0 0;
+  width: 410px;
+}
+.head_btn {
+  display: flex;
+  align-items: center;
+  margin: 34px 0 0 0;
+}
+.head_btn > button {
+  width: 170px;
+  height: 60px;
+  border: none;
+  background: #f1a501;
+  box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.head_btn > button:hover {
+  box-shadow: 0 5px 5px 0 #bfc20d;
+}
+.head_btn2 {
+  cursor: pointer;
+}
+.head_btn2 > i {
+  font-size: 40px;
+  color: #df6951;
+  padding: 0 20px 0 30px;
+}
+.head_btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head_btn2 > p {
+  color: #686d77;
+  font-weight: 500;
+  font-size: 17px;
+}
+.header_img {
+  min-width: 590px;
+}
+
+/* Header Section Complete */
+
+.offer_sec {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  padding: 24px 0 0 0;
+  color: #181e4b;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Volkhov", serif;
+  margin: 20px 0 0 0;
+}
+
+.offer_sec_flex > h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #1e1d4c;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.offer_sec_img {
+  display: flex;
+  justify-content: center;
+}
+.plane_img {
+  display: flex;
+  justify-content: center;
+}
+.offer_sec_flex > p {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 10px;
+  color: #5e6282;
+}
+.offer_header {
+  display: flex;
+  max-width: 1170px;
+  justify-content: space-between;
+  margin: auto;
+  gap: 30px;
+  padding: 70px 0 0 0;
+}
+
+.offer_card {
+  background: #ffffff;
+  border-radius: 36px;
+}
+.card {
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 40px 10px;
+}
+.card:hover {
+  box-shadow: 3px 11px 39px -8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 11px 39px -8px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 11px 39px -8px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.5s;
+}
+
+/* Offer Section Complete  */
+.sell_sec {
+  margin: 150px 0 0 0;
+}
+.sell_sec > h6 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+  text-align: center;
+}
+.sell_sec > h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Volkhov", serif;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+.trip_card {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  padding: 100px 20px 20px 20px;
+  gap: 30px;
+}
+
+
+/* Destinations Section Complete */
+
+.icons_flex {
+  display: flex;
+  align-items: center;
+  margin: 31px 0 0 0;
+}
+.easy_fast > h6 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+.easy_fast > h2 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Volkhov", serif;
+  width: 550px;
+  text-transform: capitalize;
+  margin: 20px 0 0 0;
+}
+.icon {
+  padding: 0 0 0 15px;
+}
+.icon > h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #5e6282;
+}
+
+.icon > p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e6282;
+  width: 327px;
+}
+.easy_fast_flex {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  padding: 20px 20px;
+}
+/*  */
+
+/* Easy and Fast Section Complete */
+
+.testimonials_flex {
+  display: flex;
+  max-width: 1170px;
+  padding: 80px 15px 0  15px;
+  margin: auto;
+}
+.testimonials_sec > h5 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+.testimonials_sec > h2 {
+  width: 417px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Volkhov", serif;
+  padding: 10px 0 0 0;
+}
+.testimonials_sec > img {
+  margin: 82px 0 56px 0;
+}
+.thomas_h6 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+  width: 395px;
+  padding: 10px 0 0 40px;
+}
+.thomas_sec {
+  margin: 0 0 0 150px;
+}
+.mike_sec {
+  padding: 40px 0 0 0;
+}
+.mike_sec > h6 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+.mike_sec > p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #5e6282;
+}
+.mike_sec {
+  padding: 34px 0 30px 40px;
+}
+.thomas_bg {
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 10px;
+}
+.chris {
+  margin: 20px 0 0 70px;
+}
+.chris > h6 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+.chris > p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #5e6282;
+}
+
+/* Testimonials Section Complete */
+
+.airline_icons {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 120px 0 0 0;
+}
+
+
+/* Airline Section Complete */
+
+.mail_sec {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 80px 0 0 0;
+}
+.bg {
+  background: #dfd7f9;
+  border-radius: 120px 20px 20px 20px;
+  max-width: 1170px;
+  margin: auto;
+  height: 407px;
+
+}
+
+.mail_head > h1 {
+  color: #5e6282;
+  font-weight: 600;
+  font-size: 33px;
+  text-align: center;
+  padding: 80px 0 0 0;
+  width: 859px;
+  margin: auto;
+}
+.mail_btn > button {
+  width: 180px;
+  height: 68px;
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.mail_icon {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+.mail_icon > i {
+  font-size: 70px;
+  gap: 20px;
+  color: white;
+}
+.mail_icon > input {
+  width: 350px;
+  height: 68px;
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+/* Mail Section Complete */
+
+.footer_flex {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+  padding: 154px 15px 0 15px;
+}
+.jadoo_head > h1 {
+  color: #181e4b;
+  font-weight: 500;
+  font-size: 44px;
+}
+.jadoo_head > p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #5e6282;
+  width: 207px;
+  padding: 20px 0 0 0;
+}
+.Company_head > h1 {
+  font-weight: 700;
+  font-size: 21px;
+  color: #080809;
+}
+.Company_para {
+  padding: 20px 0 0 0;
+}
+
+.Company_para > a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+  padding: 0 0 10px 0;
+  text-decoration: none;
+  display: block;
+}
+.discover {
+  color: #5e6282;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+.g_play > img{
+  cursor: pointer;
+}
+.fb_img > img{
+  cursor: pointer;
+}
+
+.final{
+  font-weight: 500;
+font-size: 14px;
+color: #5E6282;
+text-align: center;
+padding: 100px 0 60px 0;
+
+}
+
+/* Footer Complete */
+
+@media screen and (max-width: 1087px){
+  .responsive_header{
+    display: flex;
+  }
+  .header{
+    display: none;
+  }
+  .header_flex{
+  display: block;
+  }
+  .header_img {
+    min-width: 100%;
+  }
+  .offer_header{
+    flex-wrap:wrap;
+    margin: 0 20px 0 10px;
+    justify-content: center;
+  }
+  .header_flex{
+    max-width: 1170px;
+    margin: auto;
+  }
+  .easy_fast_flex{
+    display: block;
+  }
+  .girl_seen_img{
+    margin: 50px 0 0 0 ;
+  }
+  .testimonials_flex{
+    display: block;
+    margin: 50px 15px 150px  15px;
+  }
+  .thomas_sec{
+    margin: 20px;
+  }
+  .airline_icons{
+    display: none;
+    justify-content: center;
+  }
+
+  
+} 
+
+@media screen and (max-width: 840px){
+  .mail_head > h1{
+     width: 100%;
+     font-size: 30px;
+  }
+  .footer_flex{
+    display: block;
+    margin: 0;
+    padding: 50px 15px 0 15px ;
+  }
+  .jadoo_head{
+    text-align: center;
+  }
+  .jadoo_head > p{
+    width: 100%;
+  }
+  .Company_head{
+    text-align: center;
+    padding: 20px 0 0 0 ;
+  }
+  .fb_img{
+    justify-content: center;
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+  .g_play{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 530px){
+  .head{
+    padding: 10px;
+  }
+  .head > h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #df6951;
+    text-transform: uppercase;
+  }
+  .head > h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #181e4b;
+    text-transform: uppercase;
+  }
+  .head > p{
+    font-size: 14px;
+    width: 300px;
+  }
+  .offer_sec{
+    font-size: 30px;
+  }
+  .sell_sec > h1{
+    font-size: 30px;
+  }
+  .trip_card{
+    display:block;
+    justify-content: center;
+
+  }
+  .easy_fast > h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .icon > p{
+    width: 100%;
+  }
+  .thomas_h6{
+    width: 100%;
+    padding: 15px;
+  }
+  .mike_sec{
+    width: 100%;
+    padding: 15px;
+  }
+  .chris{
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .testimonials_sec > h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .mail_icon > i{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 665px){
+.flex{
+  display: block;
+}
+.mail_icon > i{
+  display: none;
+}
+.mail_icon > input{
+  margin: 0 0 10px 0;
+}
+.bg{
+  height: 500px;
+}
+}
